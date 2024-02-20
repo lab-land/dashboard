@@ -7,9 +7,12 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "prepare": "husky"
   },
   "dependencies": {
+    "@tanstack/react-query": "5.22.2",
+    "@tanstack/react-query-devtools": "5.24.0",
     "@tanstack/react-router": "1.16.6",
     "@tanstack/router-devtools": "1.16.6",
     "react": "18.2.0",
@@ -17,6 +20,7 @@
     "zustand": "4.5.1"
   },
   "devDependencies": {
+    "@tanstack/eslint-plugin-query": "5.20.1",
     "@tanstack/router-vite-plugin": "1.16.5",
     "@types/node": "20.11.19",
     "@types/react": "18.2.55",
@@ -27,8 +31,13 @@
     "eslint": "8.56.0",
     "eslint-plugin-react-hooks": "4.6.0",
     "eslint-plugin-react-refresh": "0.4.5",
+    "husky": "9.0.11",
+    "lint-staged": "15.2.2",
     "typescript": "5.2.2",
     "unocss": "0.58.5",
     "vite": "5.1.0"
+  },
+  "lint-staged": {
+    "*": "pnpm run lint"
   }
 }

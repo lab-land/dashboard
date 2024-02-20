@@ -1,7 +1,7 @@
-import { useCounter } from "@/stores/counter";
+import { useCounter } from '@/stores/counter'
 
 export default function Button() {
-  const { decrement, increment } = useCounter();
+  const { decrement, increment } = useCounter()
 
   return (
     <div flex="~ justify-center gap-4 items-center">
@@ -12,5 +12,5 @@ export default function Button() {
         Decrement
       </button>
     </div>
-  );
+  )
 }
