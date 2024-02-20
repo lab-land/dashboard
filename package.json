@@ -38,6 +38,6 @@
     "vite": "5.1.0"
   },
   "lint-staged": {
-    "*": "pnpm run lint"
+    "*.{ts,tsx}": "eslint --fix"
   }
 }
