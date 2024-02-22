@@ -1,5 +1,7 @@
 #! /usr/bin/env sh
 
+# Example deploy in Github Pages
+
 set -e
 
 # Install pnpm with corepack
