@@ -23,9 +23,9 @@
     /*Paths */
     "baseUrl": ".",
     "paths": {
-      "@/*": ["src/*"]
+      "@/*": ["./*"]
     }
   },
-  "include": ["src"],
+  "include": ["src", "shims.d.ts", "routeTree.gen.ts", "main.tsx", "devtools.tsx", "components", "vite-env.d.ts", "hooks", "routes", "stores"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
