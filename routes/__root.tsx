@@ -11,6 +11,9 @@ export const Route = createRootRoute({
         <Link to='/about'>
           About
         </Link>
+        <Link to='/example'>
+          Example
+        </Link>
       </div>
       <hr />
       <ScrollRestoration />
