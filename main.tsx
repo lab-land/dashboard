@@ -6,7 +6,7 @@ import { ReactQueryDevtools } from '@tanstack/react-query-devtools'
 import 'uno.css'
 import '@unocss/reset/tailwind.css'
 import { routeTree } from './routeTree.gen'
-import { DevtoolsQuery } from './devtools'
+import { DevtoolsQuery } from './components/DevTools'
 
 declare module '@tanstack/react-router' {
   interface Register {
