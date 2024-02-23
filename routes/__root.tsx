@@ -12,7 +12,7 @@ export const Route = createRootRoute({
       <hr />
       <ScrollRestoration />
       <Outlet />
-      <TanStackRouterDevtools />
+      <TanStackRouterDevtools initialIsOpen={false}/>
     </>
   ),
 })
