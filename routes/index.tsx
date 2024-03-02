@@ -1,22 +1,14 @@
-import Button from '@/components/Button'
-
-import { useCounter } from '@/stores/counter'
+import Login from "@/routes/login";
 import { createFileRoute } from '@tanstack/react-router'
-import { CornerDownLeft } from 'lucide-react'
 
 export const Route = createFileRoute('/')({
   component: Home,
 })
 
 function Home() {
-  const counter = useCounter((state) => state.counter)
   return (
-    <div>
-      <h3>Welcome Home! TanStack Router</h3>
-      <p>{counter}</p>
-      <Button />
-      <div className='i-logos-vue text-3xl' />
-      <CornerDownLeft color='red' />
-    </div>
+    <>
+      <Login />
+    </>
   )
 }
