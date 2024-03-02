@@ -10,7 +10,7 @@ export default function Login() {
     <>
       <section
         className='
-      flex flex-col items-center justify-center h-screen sm:h-screen'
+      flex flex-col items-center justify-center h-screen'
       >
         <div className='flex flex-col sm:flex-row gap-4 sm:gap-24'>
           <figure className='xl:block hidden'>
