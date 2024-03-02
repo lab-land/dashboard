@@ -1,7 +1,5 @@
-import { Search } from 'lucide-react'
-import { Bell } from 'lucide-react'
-import { UserRound } from 'lucide-react'
-import { ChevronDown } from 'lucide-react'
+import { UserRound, ChevronDown, Bell, Search } from 'lucide-react'
+
 import { useState } from 'react'
 
 const Navbar = () => {
@@ -12,7 +10,7 @@ const Navbar = () => {
     const value = e.target.value
     setInputValue(value)
   }
-console.log(inputValue);
+  console.log(inputValue)
 
   return (
     <header flex='~ xl:justify-end md:justify-end lg:justify-end  items-center wrap-reverse justify-center'>
@@ -64,7 +62,7 @@ console.log(inputValue);
             text='~ center white'
             p='10px'
             rounded='10px'
-            className={`${seeMenu ? 'slide-down  left-24px' : ' top-50px  left--0px opacity-0.5 '} transition-all ease-in-out   duration-300 absolute overflow-hidden`}
+            className={`${seeMenu ? 'top-50px absolute  left-24px' : ' top-50px  left-0px opacity-0.5 '} transition-all ease-in-out   duration-300 absolute overflow-hidden`}
           >
             <li
               bg=' hover:#FF947E'
