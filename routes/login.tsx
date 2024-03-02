@@ -24,11 +24,15 @@ export default function Login() {
             <h3 className='text-sad font-bold text-[24px]'>Login</h3>
             <div className='flex flex-col'>
               <label className='margin-label text-sad'>Email</label>
-              <div className='absolute-icons left-[35px] sm:left-[55px] top-[182px] sm:top-[202px] transform -translate-y-1/2 text-[#8B8E99]'>
+              <div
+                className='transform -translate-y-1/2 text-sad'
+                position='absolute left-[35px] top-[182px]'
+                sm='left-[55px] top-[202px]'
+              >
                 <Mail />
               </div>
               <input
-                className='input-border'
+                className='input-border h-[44px]'
                 id='email'
                 type='email'
                 placeholder='jhondoe@gmail.com'
@@ -36,11 +40,15 @@ export default function Login() {
             </div>
             <div className='flex flex-col'>
               <label className='margin-label text-sad'>Password</label>
-              <div className='absolute-icons left-[35px] sm:left-[55px] top-[270px] sm:top-[290px] transform -translate-y-1/2 text-sad'>
+              <div
+                className='transform -translate-y-1/2 text-sad'
+                position='absolute left-[35px] top-[182px]'
+                sm='left-[55px] top-[202px]'
+              >
                 <LockKeyhole />
               </div>
               <input
-                className='input-border'
+                className='input-border h-[44px]'
                 id='password'
                 type='password'
                 placeholder='Enter your password'
@@ -49,14 +57,16 @@ export default function Login() {
             <p className='text-center text-[#3858D6] font-semibold text-base mt-[15px] mb-[15px]'>
               Forgot password?
             </p>
-            <button className='block m-auto bg-[#3858D6] w-full sm:w-[535px] h-[44px] text-white font-bold rounded-[8px]'>
+            <button className='block m-auto bg-[#3858D6] w-full  h-[44px] text-white font-bold rounded-[8px]'
+              sm="w-[535px]"
+            >
               Login
             </button>
           </form>
         </div>
       </section>
       <footer className='w-full bg-black py-4 mt'>
-        <p className='text-[#727272]'>
+        <p className='text-sad'>
           @copyrigth - Todos los derechos reservado
         </p>
       </footer>
