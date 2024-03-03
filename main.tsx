@@ -27,6 +27,6 @@ if (!rootElement.innerHTML) {
         <ReactQueryDevtools initialIsOpen />
         <DevtoolsQuery />
       </QueryClientProvider>
-    </React.StrictMode>
+    </React.StrictMode>,
   )
 }
