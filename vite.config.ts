@@ -8,19 +8,15 @@ import { TanStackRouterVite } from '@tanstack/router-vite-plugin'
 import { defineConfig } from 'vitest/config'
 
 export default defineConfig({
-  root: './',
-  base: './',
   plugins: [
     react(),
     unoCSS(),
-    TanStackRouterVite({
-      generatedRouteTree: './routeTree.gen.ts',
-      routesDirectory: './routes',
-    }),
+    TanStackRouterVite(),
   ],
   resolve: {
     alias: {
-      '@': resolve(__dirname, './'),
+      '@': resolve(__dirname, './src'),
+      'types': resolve(__dirname, './types'),
     },
   },
   test: {
