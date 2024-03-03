@@ -19,7 +19,7 @@ export default function Login() {
             className="relative h-auto w-full border border-[#E4E7E9] rounded-[20px] p-[20px] shadow-md sm:h-[616px] sm:w-[613px] sm:p-[40px]"
             action=""
           >
-            <img className="m-auto block" src="/Logo & Text.png" alt="" />
+            <h2 class="text-2xl font-bold text-sad">Commerce</h2>
             <h3 className="text-[24px] text-sad font-bold">Login</h3>
             <div className="flex flex-col">
               <label className="margin-label text-sad">Email</label>
