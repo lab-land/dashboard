@@ -12,7 +12,8 @@
     /* Bundler mode */
     "moduleResolution": "bundler",
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./src/*"],
+      "types/*": ["./types/*"]
     },
     "resolveJsonModule": true,
     "types": ["vitest/globals"],
@@ -28,5 +29,5 @@
     "skipLibCheck": true
   },
   "references": [{ "path": "./tsconfig.node.json" }],
-  "include": ["src", "shims.d.ts", "routeTree.gen.ts", "main.tsx", "devtools.tsx", "components", "vite-env.d.ts", "hooks", "routes", "stores"]
+  "include": ["src", "src/shims.d.ts", "src/routeTree.gen.ts", "src/main.tsx", "devtools.tsx", "src/components", "src/vite-env.d.ts", "src/hookssrc/routesutes", "src/stores"]
 }

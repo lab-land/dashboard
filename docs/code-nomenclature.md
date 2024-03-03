@@ -9,7 +9,7 @@ Variables most of the time have to be `const`
 ### Example
 
 ```tsx
-const [acme, setAcme] = useState(0)
+const [acme, setAcme] = useState(0) // ✔
 
 // No use let or var
 // let [acme, setAcme] = useState(0) // ❌
@@ -23,7 +23,7 @@ Event functions always have to start with the word `on`
 #### Example
 
 ```ts
-function onLogged() {}
+function onLogged() {} // ✔
 
 /** function logged() {} ❌ */
 ```
