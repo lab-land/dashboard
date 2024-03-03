@@ -13,7 +13,7 @@ export default function Login() {
       >
         <div className="flex flex-col gap-4 sm:flex-row sm:gap-24">
           <figure className="hidden xl:block">
-            <img src="/hero.png" alt="logo-image" />
+            <img src="/png/hero.png" alt="logo-image" />
           </figure>
           <form
             className="relative h-auto w-full border border-[#E4E7E9] rounded-[20px] p-[20px] shadow-md sm:h-[616px] sm:w-[613px] sm:p-[40px]"
