@@ -42,7 +42,7 @@ export default function Login() {
               <label className='margin-label text-sad'>Password</label>
               <div
                 className='transform -translate-y-1/2 text-sad'
-                position='absolute left-[35px] top-[182px]'
+                position='absolute left-[35px] top-[270px]'
                 sm='left-[55px] top-[290px]'
               >
                 <LockKeyhole />
