@@ -43,7 +43,7 @@ export default function Login() {
               <div
                 className='transform -translate-y-1/2 text-sad'
                 position='absolute left-[35px] top-[182px]'
-                sm='left-[55px] top-[202px]'
+                sm='left-[55px] top-[290px]'
               >
                 <LockKeyhole />
               </div>
